@@ -1,0 +1,5 @@
+<HTML> <BODY>
+<FORM ACTION="salutations"
+METHOD=POST>
+Name <INPUT NAME="name"> <P> First Name <INPUT NAME="first name"> <P> <INPUT TYPE=SUBMIT VALUE="Send"> </FORM>
+</BODY> </HTML>
