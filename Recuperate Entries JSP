@@ -1,0 +1,7 @@
+<HTML> <BODY>
+<H1>Result Example</H1>
+<% String name = request.getParameter( "name" );
+String firstname = request.getParameter( "firstname" );
+out.println( "Bonjour " + firstname + " " + name );
+%>
+</BODY> </HTML>
