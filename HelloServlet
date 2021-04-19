@@ -1,0 +1,10 @@
+@WebServlet(urlPatterns={"/myservlet"})
+public class HelloServlet extends HttpServlet{
+publicvoid service( HttpServletRequest request,  HttpServletResponse response )  throwsServletException, IOException{
+response.setContentType( "text/html" );
+PrintWriter out = response.getWriter();
+out.println( "<html><body>" );
+out.println( "<h1>Bonjour</h1>" );
+out.println( "</body></html>" );
+ }
+}
